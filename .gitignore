@@ -1,0 +1,60 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+generated_plugin_registrant.dart
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
+
+# Web specific (if using Flutter web)
+web/.dart_tool/
+web/build/
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/build/
+android/captures/
+*.keystore
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+ios/.generated/
+ios/FlutterGeneratedPluginRegistrant.*
+Podfile.lock
+
+# Coverage
+coverage/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# pubspec.lock if you’re writing a **package** (not an app)
+pubspec.lock
