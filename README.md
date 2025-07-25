@@ -27,17 +27,17 @@ final Edviron _edviron = Edviron(mode: EdvironMode.development);
 _edviron.collect(
   context: context,
   collectRequestId: _collectRequestId,
-  onSuccess: () => {
+  onSuccess: (collectId) => {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
-        content: Text('Collect request successful'),
+        content: Text('Collect request successful: $collectId'),
       ),
     ),
   },
-  onError: () => {
+  onError: (collectId) => {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
-        content: Text('Collect request failed'),
+        content: Text('Collect request failed : $collectId'),
       ),
     ),
   });
